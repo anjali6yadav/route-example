@@ -1,16 +1,11 @@
 import React from "react";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { routesArr } from "components/Routes/routes";
+import { Outlet } from "react-router-dom";
 
-// const router = createBrowserRouter(routesArr);
-
-const Body = ({ router }) => {
-  console.log("router::::::::", router);
+const Body = () => {
   return (
     <>
-      body
-      {/*  <RouterProvider router={router} />; */}
+      <Outlet />
     </>
   );
 };

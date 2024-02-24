@@ -69,12 +69,12 @@ export default function SideBar() {
   };
 
   return (
-    <Drawer variant="permanent" open={open}>
-      <DrawerHeaderComponent
+    <Drawer variant="permanent" /* open={open} */>
+      {/*  <DrawerHeaderComponent
         open={open}
         handleDrawer={handleDrawer}
         username={"Anja"}
-      />
+      /> */}
       <List>
         {/* Disabled link only for demo then remove disabled code "menu.isDisabled ? '#' : menu.link" */}
         {menuList.map((menu, index) => (

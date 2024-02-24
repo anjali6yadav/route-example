@@ -1,5 +1,5 @@
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
@@ -19,6 +19,13 @@ export const menuList = [
     link: "/about",
     isActive: false,
     isDisabled: false,
+  },
+
+  {
+    menuName: "User Form ",
+    menuIcon: AccountCircleIcon,
+    link: "/userform",
+    isActive: true,
   },
 
   {

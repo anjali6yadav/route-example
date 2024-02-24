@@ -7,7 +7,6 @@ import Body from "components/Layout/Body/Body";
 import SideBar from "components/Layout/SideBar/SideBar";
 
 const Layout = ({ childArr }) => {
-  console.log("children", childArr);
   return (
     <Container maxWidth={false} disableGutters>
       <Box
@@ -52,7 +51,7 @@ const Layout = ({ childArr }) => {
               width: "auto",
               backgroundColor: "#f8f8f8",
               p: 4,
-              marginBottom: 3,
+              m: 5,
             }}
           >
             <Body router={childArr} />
